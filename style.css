@@ -3,8 +3,8 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-lavender: #948ecc;
+  --color-dark-lvender: #545074;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
@@ -51,6 +51,13 @@ ul {
   list-style: none;
 }
 
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* Typography */
 
 h1 {
@@ -86,7 +93,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-pink);
+  background-color: var(--color-lavender);
   color: var(--color-white);
   padding: 16px;
 }
@@ -111,4 +118,31 @@ p {
 }
 .navbar__menu__item:hover {
   background-color: var(--color-dark-pink);
+}
+
+/* Home */
+#home {
+  background: url("images/home-background.jpg") center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+  object-fit: contain;
+}
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }
