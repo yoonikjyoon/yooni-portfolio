@@ -98,7 +98,7 @@ p {
   align-items: center;
   background-color: var(--color-lavender);
   color: var(--color-white);
-  padding: 16px;
+  padding: 11px 16px;
 }
 
 .navbar__menu {
@@ -109,7 +109,12 @@ p {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
 }
-
+.navbar__logo__img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 2px;
+}
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
