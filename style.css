@@ -59,6 +59,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 /* Typography */
@@ -138,7 +139,7 @@ p {
   position: absolute;
   top: 18px;
   right: 32px;
-  font-size: 24px;
+  font-size: var(--font-regular);
   color: var(--color-white);
   display: none;
 }
@@ -146,9 +147,8 @@ p {
 /* Home */
 #home {
   background: url("images/home-background.jpg") center/cover no-repeat;
-  padding: 40px;
-  padding-top: 100px;
   text-align: center;
+  padding: 100px 40px 20px 40px;
 }
 .home__avatar {
   width: 250px;
@@ -165,12 +165,14 @@ p {
   color: var(--color-white);
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
-  margin: 24px;
+  margin: 20px;
   padding: 8px 12px;
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
-
+.home__contact:hover {
+  background-color: var(--color-dark-lavender);
+}
 /* Section common */
 .section {
   padding: 50px;
@@ -289,8 +291,9 @@ p {
   border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
-  padding: 8px 20px;
+  padding: 8px 50px;
   margin: 0px 5px;
+  position: relative;
 }
 .category__btn.selected,
 .category__btn:hover {
@@ -300,7 +303,7 @@ p {
 .category__btn.selected .category__count,
 .category__btn:hover .category__count {
   opacity: 1;
-  top: 0;
+  top: 6px;
 }
 .category__count {
   background-color: var(--color-orange);
@@ -310,11 +313,11 @@ p {
   height: 24px;
   line-height: 24px;
   display: inline-block;
-  position: relative;
+  position: absolute;
   top: -20px;
-  left: 4px;
+  right: 16px;
   opacity: 0;
-  transition: all var(--animation-duration) ease;
+  transition: all var(--animation-duration) ease-in;
 }
 
 .work__projects {
@@ -444,6 +447,7 @@ p {
   height: 50px;
   font-size: 30px;
   background-color: var(--color-lavender);
+  border: 1px solid var(--color-white);
   color: var(--color-white);
   border-radius: 50%;
   opacity: 0;
@@ -457,8 +461,13 @@ p {
 
 /* For below 769px screen width */
 @media screen and (max-width: 768px) {
-  .navbar__toggle-btn {
-    display: block;
+  :root {
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 16px;
+    --font-small: 14px;
+    --font-micro: 12px;
   }
   #navbar {
     flex-direction: column;
@@ -466,7 +475,7 @@ p {
     background-color: var(--color-lavender);
   }
   #navbar.navbar--dark {
-    padding: 11px;
+    padding: 11px 16px;
   }
   .navbar__menu {
     flex-direction: column;
@@ -477,8 +486,19 @@ p {
   .navbar__menu.open {
     display: block;
   }
+  .navbar__toggle-btn {
+    display: block;
+    top: 22px;
+    right: 22px;
+  }
+  .section {
+    padding: 15px;
+    padding-top: 45px;
+  }
   .about__majors {
     flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
   .major {
     margin-bottom: 30px;
@@ -486,11 +506,31 @@ p {
   .skillset {
     flex-direction: column;
   }
+  .category__btn {
+    margin: 4px 0;
+    width: 70%;
+  }
   .project {
     flex-grow: 1;
+  }
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
   }
   .testimonial__avatar {
     width: 80px;
     height: 80px;
+  }
+  .testimonial__avatar:nth-child(even),
+  .testimonial__avatar:nth-child(even) {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  .testimonial__speech-bubble {
+    order: 1;
+  }
+  .arrow-up {
+    right: 16px;
+    bottom: 60px;
   }
 }
