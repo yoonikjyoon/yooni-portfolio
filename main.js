@@ -88,14 +88,7 @@ workBtnContainer.addEventListener("click", (e) => {
 });
 
 // 1. 모든 섹션 요소들(id)과 메뉴 아이템들(id가 박힌 data-link요소)을 가져온다.
-const sectionIds = [
-  "#home",
-  "#about",
-  "#skills",
-  "#work",
-  "#testimonials",
-  "#contact",
-];
+const sectionIds = ["#home", "#about", "#skills", "#work", "#contact"];
 const sections = sectionIds.map((id) => document.querySelector(id));
 const navItems = sectionIds.map((id) =>
   document.querySelector(`[data-link="${id}"]`)
