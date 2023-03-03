@@ -8,7 +8,7 @@
   --color-dark-lavender: #545074;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
-  --color-light-grey: #7c7979;
+  --color-light-grey: #7e7b7b;
   --color-blue: #73aace;
   --color-orange: #feb546;
   --color-black: #000000;
@@ -162,6 +162,20 @@ p {
 .home__title,
 .home__description {
   color: var(--color-white);
+}
+.home__cursor {
+  content: "";
+  margin-left: 3px;
+  border-right: 2px solid var(--color-white);
+  animation: cursor 0.9s infinite steps(2);
+}
+@keyframes cursor {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 .home__contact {
   color: var(--color-white);
@@ -372,7 +386,7 @@ p {
 .project__description h3 {
   color: var(--color-orange);
 }
-.project__description h3:after {
+.project__description h3::after {
   content: "";
   display: block;
   position: relative;

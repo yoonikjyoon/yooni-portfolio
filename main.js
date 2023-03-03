@@ -43,6 +43,43 @@ document.addEventListener("scroll", () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
+// Home - typing text
+const homeTitleText = document.querySelector(".home__title-text");
+const words = ["Yooni Yoon.", "a Front-end Developer."];
+const speed = 100;
+let i = 0;
+
+const typing = async () => {
+  const word = words[i].split("");
+  while (word.length) {
+    await wait(speed);
+    homeTitleText.innerHTML += word.shift();
+  }
+  // pause
+  await wait(800);
+
+  remove();
+};
+const remove = async () => {
+  const word = words[i].split("");
+  while (word.length) {
+    await wait(speed);
+    word.pop();
+    homeTitleText.innerHTML = word.join("");
+  }
+  i = !words[i + 1] ? 0 : i + 1;
+  typing();
+};
+
+function wait(ms) {
+  return new Promise((res) => setTimeout(res, ms));
+}
+
+// init on Dom load
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(typing, 1500);
+});
+
 // Show 'arrow up' button when scrolling down
 const arrowUp = document.querySelector(".arrow-up");
 document.addEventListener("scroll", () => {
