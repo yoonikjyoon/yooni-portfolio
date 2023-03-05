@@ -1,10 +1,119 @@
 {
   "data": [
     {
-      "title": "",
-      "alt": "",
-      "src": ""
+      "displayName": "HTML5",
+      "name": "html5",
+      "color": "E34F26"
     },
-    { "title": "", "alt": "", "src": "" }
+    {
+      "displayName": "CSS3",
+      "name": "css3",
+      "color": "#1572B6"
+    },
+    {
+      "displayName": "JavaScript",
+      "name": "javascript",
+      "color": "#F7DF1E"
+    },
+    {
+      "displayName": "React Native & React",
+      "name": "react",
+      "color": "#61DAFB"
+    },
+    {
+      "displayName": "TypeScript",
+      "name": "typescript",
+      "color": "#3178C6"
+    },
+    {
+      "displayName": "MobX",
+      "name": "mobx",
+      "color": "#FF9955"
+    },
+    {
+      "displayName": "Redux",
+      "name": "redux",
+      "color": "#FF9955"
+    },
+    {
+      "displayName": "Axios",
+      "name": "axios",
+      "color": "#5A29E4"
+    },
+    {
+      "displayName": "Styled-Components",
+      "name": "styledcomponents",
+      "color": "#DB7093"
+    },
+    {
+      "displayName": "Post CSS",
+      "name": "postcss",
+      "color": "#DD3A0A"
+    },
+    {
+      "displayName": "Tailwind CSS",
+      "name": "tailwindcss",
+      "color": "#06B6D4"
+    },
+    {
+      "displayName": "Node.js",
+      "name": "node.js",
+      "color": "#339933"
+    },
+    {
+      "displayName": "npm",
+      "name": "npm",
+      "color": "#CB3837"
+    },
+    {
+      "displayName": "Yarn",
+      "name": "yarn",
+      "color": "#2C8EBB"
+    },
+    {
+      "displayName": "Git",
+      "name": "git",
+      "color": "#F05032"
+    },
+    {
+      "displayName": "GitHub",
+      "name": "github",
+      "color": "#181717"
+    },
+    {
+      "displayName": "Storybook",
+      "name": "storybook",
+      "color": "#FF4785"
+    },
+    {
+      "displayName": "jQuery",
+      "name": "jquery",
+      "color": "#0769AD"
+    },
+    {
+      "displayName": "Python",
+      "name": "python",
+      "color": "#3776AB"
+    },
+    {
+      "displayName": "Django",
+      "name": "django",
+      "color": "#092E20"
+    },
+    {
+      "displayName": "Flask",
+      "name": "flask",
+      "color": "#000000"
+    },
+    {
+      "displayName": "MySQL",
+      "name": "mysql",
+      "color": "#4479A1"
+    },
+    {
+      "displayName": "SQLite",
+      "name": "sqlite",
+      "color": "#003B57"
+    }
   ]
 }
