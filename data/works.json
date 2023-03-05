@@ -2,72 +2,12 @@
   "data": [
     {
       "id": "project1",
-      "title": "Shoppy",
-      "desc": "Online shopping website built with React and Firebase Realtime DB.",
-      "type": "Personal Project",
-      "stack": "#React #HTML",
-      "image": {
-        "src": "images/projects/project1.png",
-        "alt": "Main image of Shoppy"
-      },
-      "url": [
-        { "demo": "https://yooni-shoppy.netlify.app" },
-        { "github": "https://github.com/yoonikjyoon/shoppy" }
-      ]
-    },
-    {
-      "id": "project2",
-      "title": "Youtube Clone",
-      "desc": "Built a YouTube clone website with React and the YouTube Data API.",
-      "type": "Personal Project",
-      "stack": "#React",
-      "image": {
-        "src": "images/projects/project2.png",
-        "alt": "Main image of Youtube Clone"
-      },
-      "url": [
-        { "demo": "https://yooni-youtube.netlify.app" },
-        { "github": "https://github.com/yoonikjyoon/youtube-project" }
-      ]
-    },
-    {
-      "id": "project3",
-      "title": "Currency Converter",
-      "desc": "Built a currency converter with React and the exchange rates API.",
-      "type": "Personal Project",
-      "stack": "#React",
-      "image": {
-        "src": "images/projects/project3.png",
-        "alt": "Main image of Currency Converter"
-      },
-      "url": [
-        { "demo": "https://yooni-converter.netlify.app" },
-        { "github": "https://github.com/yoonikjyoon/currency-converter" }
-      ]
-    },
-    {
-      "id": "project4",
-      "title": "To Do List Web App",
-      "desc": "To Do list web app with React.",
-      "type": "Personal Project",
-      "stack": "#React",
-      "image": {
-        "src": "images/projects/project4.png",
-        "alt": "Main image of To do list"
-      },
-      "url": [
-        { "demo": "https://yooni-todo.netlify.app" },
-        { "github": "https://github.com/yoonikjyoon/todo-list" }
-      ]
-    },
-    {
-      "id": "project5",
       "title": "Cori App",
       "desc": "An essential app for being with pets.",
       "type": "Work Project",
       "stack": "#React-Native #TypeScript #WebView",
       "image": {
-        "src": "images/projects/project5.png",
+        "src": "images/projects/project1.png",
         "alt": "Main image of Cori App"
       },
       "url": {
@@ -77,16 +17,76 @@
       }
     },
     {
-      "id": "project6",
+      "id": "project2",
       "title": "Cori Web",
       "desc": "A website to introduce the Cori app.",
       "type": "Work Project",
       "stack": "#React #TypeScript",
       "image": {
-        "src": "images/projects/project6.png",
+        "src": "images/projects/project2.png",
         "alt": "Main image of Cori Web"
       },
       "url": [{ "web": "https://service.cori.pet/" }, { "github": "" }]
+    },
+    {
+      "id": "project3",
+      "title": "Shoppy",
+      "desc": "Online shopping website built with React and Firebase Realtime DB.",
+      "type": "Personal Project",
+      "stack": "#React #HTML",
+      "image": {
+        "src": "images/projects/project3.png",
+        "alt": "Main image of Shoppy"
+      },
+      "url": [
+        { "demo": "https://yooni-shoppy.netlify.app" },
+        { "github": "https://github.com/yoonikjyoon/shoppy" }
+      ]
+    },
+    {
+      "id": "project4",
+      "title": "Youtube Clone",
+      "desc": "Built a YouTube clone website with React and the YouTube Data API.",
+      "type": "Personal Project",
+      "stack": "#React",
+      "image": {
+        "src": "images/projects/project4.png",
+        "alt": "Main image of Youtube Clone"
+      },
+      "url": [
+        { "demo": "https://yooni-youtube.netlify.app" },
+        { "github": "https://github.com/yoonikjyoon/youtube-project" }
+      ]
+    },
+    {
+      "id": "project5",
+      "title": "Currency Converter",
+      "desc": "Built a currency converter with React and the exchange rates API.",
+      "type": "Personal Project",
+      "stack": "#React",
+      "image": {
+        "src": "images/projects/project5.png",
+        "alt": "Main image of Currency Converter"
+      },
+      "url": [
+        { "demo": "https://yooni-converter.netlify.app" },
+        { "github": "https://github.com/yoonikjyoon/currency-converter" }
+      ]
+    },
+    {
+      "id": "project6",
+      "title": "To Do List Web App",
+      "desc": "To Do list web app with React.",
+      "type": "Personal Project",
+      "stack": "#React",
+      "image": {
+        "src": "images/projects/project6.png",
+        "alt": "Main image of To do list"
+      },
+      "url": [
+        { "demo": "https://yooni-todo.netlify.app" },
+        { "github": "https://github.com/yoonikjyoon/todo-list" }
+      ]
     },
     {
       "id": "project7",
