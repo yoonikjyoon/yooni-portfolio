@@ -13,107 +13,112 @@
     {
       "displayName": "JavaScript",
       "name": "javascript",
-      "color": "#F7DF1E"
+      "color": "F7DF1E"
     },
     {
       "displayName": "React Native & React",
       "name": "react",
-      "color": "#61DAFB"
+      "color": "61DAFB"
     },
     {
       "displayName": "TypeScript",
       "name": "typescript",
-      "color": "#3178C6"
+      "color": "3178C6"
     },
     {
       "displayName": "MobX",
       "name": "mobx",
-      "color": "#FF9955"
+      "color": "FF9955"
     },
     {
       "displayName": "Redux",
       "name": "redux",
-      "color": "#FF9955"
+      "color": "FF9955"
     },
     {
       "displayName": "Axios",
       "name": "axios",
-      "color": "#5A29E4"
+      "color": "5A29E4"
     },
     {
       "displayName": "Styled-Components",
       "name": "styledcomponents",
-      "color": "#DB7093"
+      "color": "DB7093"
     },
     {
       "displayName": "Post CSS",
       "name": "postcss",
-      "color": "#DD3A0A"
+      "color": "DD3A0A"
     },
     {
       "displayName": "Tailwind CSS",
       "name": "tailwindcss",
-      "color": "#06B6D4"
+      "color": "06B6D4"
     },
     {
       "displayName": "Node.js",
       "name": "node.js",
-      "color": "#339933"
+      "color": "339933"
     },
     {
       "displayName": "npm",
       "name": "npm",
-      "color": "#CB3837"
+      "color": "CB3837"
     },
     {
       "displayName": "Yarn",
       "name": "yarn",
-      "color": "#2C8EBB"
+      "color": "2C8EBB"
     },
     {
       "displayName": "Git",
       "name": "git",
-      "color": "#F05032"
+      "color": "F05032"
     },
     {
       "displayName": "GitHub",
       "name": "github",
-      "color": "#181717"
+      "color": "181717"
+    },
+    {
+      "displayName": "Firebase",
+      "name": "firebase",
+      "color": "FFCA28"
     },
     {
       "displayName": "Storybook",
       "name": "storybook",
-      "color": "#FF4785"
+      "color": "FF4785"
     },
     {
       "displayName": "jQuery",
       "name": "jquery",
-      "color": "#0769AD"
+      "color": "0769AD"
     },
     {
       "displayName": "Python",
       "name": "python",
-      "color": "#3776AB"
+      "color": "3776AB"
     },
     {
       "displayName": "Django",
       "name": "django",
-      "color": "#092E20"
+      "color": "092E20"
     },
     {
       "displayName": "Flask",
       "name": "flask",
-      "color": "#000000"
+      "color": "000000"
     },
     {
       "displayName": "MySQL",
       "name": "mysql",
-      "color": "#4479A1"
+      "color": "4479A1"
     },
     {
       "displayName": "SQLite",
       "name": "sqlite",
-      "color": "#003B57"
+      "color": "003B57"
     }
   ]
 }
