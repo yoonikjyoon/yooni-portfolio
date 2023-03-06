@@ -63,6 +63,9 @@ button {
   outline: none;
   padding: 0;
 }
+mark {
+  background-color: var(--color-plum-hover);
+}
 
 /* Typography */
 
@@ -209,7 +212,7 @@ p {
 }
 /* Section common */
 .section {
-  padding: 50px;
+  padding: 50px 100px;
   text-align: center;
   margin: auto;
 }
@@ -219,55 +222,59 @@ p {
 }
 
 /* About */
+/* .about__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 20px;
+  line-height: 1.7rem;
+} */
 .about__majors {
-  display: flex;
-  justify-content: space-between;
-  margin: 80px 0;
+  text-align: left;
+  word-break: break-word;
+  margin-bottom: 20px;
 }
-
-.major__icon {
-  width: 170px;
-  height: 170px;
-  line-height: 170px;
-  font-size: 70px;
-  margin: auto;
-  color: var(--color-dark-lavender);
-  border: 1px solid var(--color-dark-lavender);
-  border-radius: 50%;
-  margin-bottom: 16px;
+.about__majors p {
+  padding: 5px 0;
 }
-.major__icon i {
-  transition: all var(--animation-duration) ease;
+.about__jobs {
 }
-.major__icon i:hover {
-  color: var(--color-lavender);
-  transform: rotate(30deg) scale(1.2);
+.job {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  background-color: var(--color-light-white);
+  border-radius: 13px;
+  margin-top: 10px;
 }
-.major__title,
-.major__description {
+.job__image {
+}
+.job__image img {
+  width: 6rem;
+}
+.job__url a {
   color: var(--color-dark-grey);
 }
-.major__description {
-  font-size: var(--font-small);
-}
-
-.job {
-  display: flex;
-  align-items: center;
-}
 .job__description {
-  margin: 0 16px;
   text-align: left;
-}
-.job__name,
-.job__perios {
-  color: var(--color-light-grey);
+  padding: 20px 0;
+  padding-right: 20px;
 }
 .job__name {
-  font-size: var(--font-small);
+  font-size: var(--font-regular);
 }
-.job__perios {
+.job__name span {
   font-size: var(--font-micro);
+  color: var(--color-light-grey);
+}
+.job__period {
+  font-size: var(--font-micro);
+  color: var(--color-light-grey);
+}
+.job__detail {
+  text-align: left;
+  margin: 15px 0;
+  list-style-type: circle;
+  padding-left: 20px;
 }
 
 /* Skill */
