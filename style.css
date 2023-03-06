@@ -307,10 +307,10 @@ p {
   margin: 40px 0px;
 }
 .category__btn {
-  border: 1px solid var(--color-dark-white);
+  border: 1px solid var(--color-plum);
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
-  padding: 8px 50px;
+  padding: 8px 45px 8px 30px;
   margin: 0px 5px;
   position: relative;
 }
@@ -325,7 +325,7 @@ p {
   top: 6px;
 }
 .category__count {
-  background-color: var(--color-orange);
+  background-color: var(--color-plum);
   border-radius: 50%;
   color: var(--color-white);
   width: 24px;
@@ -334,7 +334,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -20px;
-  right: 16px;
+  right: 12px;
   opacity: 0;
   transition: all var(--animation-duration) ease-in;
 }
