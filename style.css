@@ -9,7 +9,9 @@
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7e7b7b;
-  --color-blue: #73aace;
+  --color-light-blue: #b0c4de;
+  --color-plum: #dda0dd;
+  --color-plum-hover: rgba(221, 160, 221, 0.4);
   --color-orange: #feb546;
   --color-black: #000000;
 
@@ -125,18 +127,15 @@ p {
   height: 40px;
 }
 .navbar__menu__item {
-  padding: 8px 12px;
-  margin: 0 4px;
+  padding: 7px 7px 4px 7px;
+  margin: 0 8px;
   cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: var(--size-border-radius);
 }
 .navbar__menu__item.active {
-  border: 1px solid var(--color-white);
+  border-bottom: 3px solid var(--color-white);
 }
 .navbar__menu__item:hover {
-  border-color: var(--color-white);
-  background-color: var(--color-dark-lavender);
+  background-color: var(--color-plum-hover);
 }
 .navbar__toggle-btn {
   position: absolute;
