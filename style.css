@@ -149,18 +149,39 @@ p {
 /* Home */
 #home {
   background: url("images/home-background.jpg") center/cover no-repeat;
-  text-align: center;
-  padding: 100px 40px 20px 40px;
+  padding: 100px 40px 40px 40px;
+  height: 75vh;
+}
+.home__container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  height: 100%;
+}
+.home__container-left {
+  text-align: right;
+}
+.home__container-right {
+  text-align: left;
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+  height: 18rem;
 }
 .home__avatar {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 40%;
   object-fit: contain;
 }
-.home__title,
+.home__title h1,
 .home__description {
   color: var(--color-white);
+}
+.home__title.sub {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .home__cursor {
   content: "";
@@ -178,15 +199,13 @@ p {
 }
 .home__contact {
   color: var(--color-white);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
-  margin: 20px;
-  padding: 8px 12px;
-  border: 2px solid var(--color-white);
+  padding: 8px 15px;
+  border: 1px solid var(--color-white);
   border-radius: var(--size-border-radius);
+  font-size: var(--font-small);
 }
 .home__contact:hover {
-  background-color: var(--color-dark-lavender);
+  background-color: var(--color-plum-hover);
 }
 /* Section common */
 .section {
