@@ -73,23 +73,16 @@
       <div class="about__majors">
         <p>
           Hi there, I'm Yooni Yoon and I love building beautiful and
-          user-friendly interfaces using <strong>React</strong> and
-          <strong>React Native</strong>. I have
-          <strong>more than 2 years of experience</strong> in creating
-          responsive designs and optimizing website and app performance.
+          user-friendly interfaces.<br />
+          I have more than 2 years of experience in creating responsive designs
+          and optimizing website and app performance. I'm also good at managing
+          my time, finishing work under pressure or tight deadlines and working
+          well with others.<br />I'm currently learning Next.js and how to write
+          test code using Jest.
         </p>
         <p>
-          I'm also good at
-          <strong>
-            managing my time, finishing work under pressure or tight deadlines
-            and working well with others</strong
-          >.
-        </p>
-        <p>
-          I'm currently learning <strong>Next.js</strong> and how to write test
-          code using <strong>Jest</strong>. I enjoy doing ballet🩰, making milk
-          tea🫖, and brushing my cat's fur😻 in my free time.
-          <em> Let's collaborate to bring your ideas to life!</em>
+          I enjoy doing ballet🩰, making milk tea🫖, and brushing my cat's fur😻
+          in my free time.
         </p>
       </div>
       <div class="about__jobs">
@@ -128,8 +121,8 @@
                 mobile app and website
               </li>
               <li>Collaborated with team members using Git-flow</li>
-              <li>Updated and released the app using the CodePush plugin</li>
-              <li>Upgrading to new versions of React Native app</li>
+              <!-- <li>Updated and released the app using the CodePush plugin</li>
+              <li>Upgrading to new versions of React Native app</li> -->
             </ul>
           </div>
         </div>
@@ -245,12 +238,12 @@
                 alt="icon for npm"
               />npm
             </li>
-            <li class="skillset__item">
+            <!-- <li class="skillset__item">
               <img
                 src="https://cdn.simpleicons.org/yarn/2C8EBB"
                 alt="icon for Yarn"
               />Yarn
-            </li>
+            </li> -->
             <li class="skillset__item">
               <img
                 src="https://cdn.simpleicons.org/git/F05032"
@@ -299,147 +292,176 @@
     </section>
     <!-- Work -->
     <section id="work" class="section">
-      <div class="section__container">
-        <h1>My work</h1>
-        <div class="work__categories">
-          <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">7</span>
-          </button>
-          <button class="category__btn" data-filter="work">
-            Work project<span class="category__count">3</span>
-          </button>
-          <button class="category__btn" data-filter="personal">
-            Personal project<span class="category__count">4</span>
-          </button>
+      <!-- <div class="section__container"> -->
+      <h1>My work</h1>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">7</span>
+        </button>
+        <button class="category__btn" data-filter="work">
+          Work project<span class="category__count">3</span>
+        </button>
+        <button class="category__btn" data-filter="personal">
+          Personal project<span class="category__count">4</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <div class="project" data-type="work">
+          <img
+            class="project__img"
+            src="images/projects/project1.png"
+            alt="Main image of Cori App"
+          />
+          <div class="project__description">
+            <h3>Cori App</h3>
+            <span>The essential app for being with pets</span>
+            <div class="project__url">
+              <a
+                href="https://apps.apple.com/kr/app/id1476796492"
+                target="_blank"
+                >iOS 🍎
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=kr.richplanet.app.cori&hl=ko"
+                target="_blank"
+                >Android 🤖
+              </a>
+              <a href="https://github.com/yoonikjyoon" target="_blank"
+                >more 🔍
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="work__projects">
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="work"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project1.png"
-              alt="Main image of Cori App"
-            />
-            <div class="project__description">
-              <h3>Cori App</h3>
-              <span>The essential app for being with pets</span>
+        <div class="project" data-type="work">
+          <img
+            class="project__img"
+            src="images/projects/project2.png"
+            alt="Main image of Cori Web"
+          />
+          <div class="project__description">
+            <h3>Cori Web</h3>
+            <span>The website you can browse before downloading the app</span>
+            <div class="project__url">
+              <a href="https://service.cori.pet/" target="_blank">web 🌱 </a>
+              <a href="https://github.com/yoonikjyoon" target="_blank"
+                >more 🔍
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="work"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project2.png"
-              alt="Main image of Cori Web"
-            />
-            <div class="project__description">
-              <h3>Cori Web</h3>
-              <span>The website you can browse before downloading the app</span>
+          </div>
+        </div>
+        <div class="project" data-type="personal">
+          <img
+            class="project__img"
+            src="images/projects/project3.png"
+            alt="Main image of Shoppy"
+          />
+          <div class="project__description">
+            <h3>Shoppy</h3>
+            <span
+              >Online shopping website built with React and Firebase Realtime
+              DB</span
+            >
+            <div class="project__url">
+              <a href="https://yooni-shoppy.netlify.app" target="_blank"
+                >demo 🌱
+              </a>
+              <a href="https://github.com/yoonikjyoon/shoppy" target="_blank"
+                >github 🔍
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="personal"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project3.png"
-              alt="Main image of Shoppy"
-            />
-            <div class="project__description">
-              <h3>Shoppy</h3>
-              <span
-                >Online shopping website built with React and Firebase Realtime
-                DB</span
-              >
+          </div>
+        </div>
+        <div class="project" data-type="personal">
+          <img
+            class="project__img"
+            src="images/projects/project4.png"
+            alt="Main image of Youtube Clone"
+          />
+          <div class="project__description">
+            <h3>Youtube Clone</h3>
+            <span
+              >Built a YouTube clone website with React and the YouTube Data
+              API</span
+            >
+            <div class="project__url">
+              <a href="https://yooni-youtube.netlify.app" target="_blank"
+                >demo 🌱
+              </a>
+              <a
+                href="https://github.com/yoonikjyoon/youtube-project"
+                target="_blank"
+                >github 🔍
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="personal"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project4.png"
-              alt="Main image of Youtube Clone"
-            />
-            <div class="project__description">
-              <h3>Youtube Clone</h3>
-              <span
-                >Built a YouTube clone website with React and the YouTube Data
-                API</span
-              >
+          </div>
+        </div>
+        <div class="project" data-type="personal">
+          <img
+            class="project__img"
+            src="images/projects/project5.png"
+            alt="Main image of Currency Converter"
+          />
+          <div class="project__description">
+            <h3>Currency Converter</h3>
+            <span
+              >Built a currency converter with React and the exchange rates
+              API</span
+            >
+            <div class="project__url">
+              <a href="https://yooni-converter.netlify.app" target="_blank"
+                >demo 🌱
+              </a>
+              <a
+                href="https://github.com/yoonikjyoon/currency-converter"
+                target="_blank"
+                >github 🔍
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="personal"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project5.png"
-              alt="Main image of Currency Converter"
-            />
-            <div class="project__description">
-              <h3>Currency Converter</h3>
-              <span
-                >Built a currency converter with React and the exchange rates
-                API</span
-              >
+          </div>
+        </div>
+        <div class="project" data-type="personal">
+          <img
+            class="project__img"
+            src="images/projects/project6.png"
+            alt="Main image of To do list"
+          />
+          <div class="project__description">
+            <h3>To Do List App</h3>
+            <span>To Do list app with React</span>
+            <div class="project__url">
+              <a href="https://yooni-todo.netlify.app" target="_blank"
+                >demo 🌱
+              </a>
+              <a href="https://github.com/yoonikjyoon/todo-list" target="_blank"
+                >github 🔍
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="personal"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project6.png"
-              alt="Main image of To do list"
-            />
-            <div class="project__description">
-              <h3>To Do List App</h3>
-              <span>To Do list app with React</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/yoonikjyoon"
-            class="project"
-            target="_blank"
-            data-type="work"
-          >
-            <img
-              class="project__img"
-              src="images/projects/project7.png"
-              alt="Main image of Daegu 365mc Website"
-            />
-            <div class="project__description">
-              <h3>Daegu 365mc Hospital Website</h3>
-              <span>Redesigned the Daegu 365mc website</span>
-            </div>
-          </a>
+          </div>
+        </div>
+        <div class="project" data-type="work">
+          <img
+            class="project__img"
+            src="images/projects/project7.png"
+            alt="Main image of Daegu 365mc Website"
+          />
+          <div class="project__description">
+            <h3>Daegu 365mc Hospital</h3>
+            <span>Redesigned the Daegu 365mc website</span>
+            <a
+              href="https://daegu.365mc.com/"
+              class="project__url"
+              target="_blank"
+              >web 🌱
+            </a>
+          </div>
         </div>
       </div>
+      <!-- </div> -->
     </section>
     <!-- Contact -->
     <section id="contact" class="section">
       <h1 class="contact__title">Let's talk</h1>
+      <em>Let's collaborate to bring your ideas to life!</em>
       <h3 class="contact__email">yooni.kj.yoon@gmail.com</h3>
       <div class="contact__links">
         <a href="#" target="_blank">

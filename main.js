@@ -177,8 +177,8 @@ window.addEventListener("wheel", () => {
     selectedNavIndex = 0;
     // Contact
   } else if (
-    window.scrollY + window.innerHeight ===
-    document.body.clientHeight
+    window.scrollY + window.innerHeight === document.body.clientHeight ||
+    window.scrollY + window.innerHeight > document.body.clientHeight
   ) {
     selectedNavIndex = navItems.length - 1;
   }
