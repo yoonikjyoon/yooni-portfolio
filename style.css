@@ -404,11 +404,23 @@ p {
 }
 .contact__title,
 .contact__email,
-.contact__rights {
+.contact__right {
   color: var(--color-white);
 }
 .contact__title {
-  margin: 32px 0;
+  margin: 0;
+}
+.contact__subtitle {
+  color: var(--color-light-lavender);
+  margin-bottom: 65px;
+}
+.contact__email {
+  background-color: var(--color-plum-hover);
+  border-radius: 100px;
+  font-size: var(--font-regular);
+  padding: 20px 35px;
+  color: var(--color-white);
+  cursor: pointer;
 }
 .contact__links {
   font-size: var(--font-large);
@@ -419,9 +431,12 @@ p {
 }
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-orange);
+  color: var(--color-plum);
 }
-
+.contact__right {
+  color: var(--color-light-lavender);
+  font-size: var(--font-micro);
+}
 /* Scroll */
 .arrow-up {
   position: fixed;
