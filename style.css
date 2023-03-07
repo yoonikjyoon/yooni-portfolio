@@ -512,10 +512,11 @@ p {
     height: 15rem;
   }
   .home__container-right {
-    width: 100%;
+    width: 60%;
     height: 25vh;
     display: block;
     text-align: center;
+    margin: auto;
   }
   .home__title {
     margin-bottom: 1rem;
@@ -525,6 +526,7 @@ p {
   .home__title.sub button {
     display: block;
     margin: auto;
+    height: fit-content;
   }
   .about__majors {
     flex-direction: column;
