@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 :root {
   /* Color */
   --color-white: #ffffff;
@@ -43,7 +44,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", "Open Sans", sans-serif;
   cursor: default;
 }
 
@@ -62,6 +63,7 @@ button {
   border: none;
   outline: none;
   padding: 0;
+  font-family: "Montserrat", "Open Sans", sans-serif;
 }
 mark {
   background-color: var(--color-plum-hover);
@@ -72,14 +74,14 @@ mark {
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
-  color: var(--color-black);
+  color: var(--color-dark-lavender);
   margin: 16px 0px;
 }
 
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  color: var(--color-black);
+  color: var(--color-dark-lavender);
   margin: 8px 0;
 }
 
@@ -239,6 +241,7 @@ p {
 }
 .about__majors p {
   padding: 5px 0;
+  word-break: break-word;
 }
 .about__jobs {
 }
@@ -260,10 +263,10 @@ p {
 }
 .job__description {
   text-align: left;
-  padding: 20px 0;
-  padding-right: 20px;
+  padding: 20px 20px 10px 0px;
 }
 .job__name {
+  font-weight: 500;
   font-size: var(--font-regular);
 }
 .job__name span {
@@ -392,15 +395,15 @@ p {
 .project__url {
   position: absolute;
   bottom: 7px;
-  color: var(--color-plum);
+  color: var(--color-dark-lavender);
   right: 12px;
 }
 .project__url a {
-  color: var(--color-plum);
+  color: var(--color-dark-lavender);
   margin-left: 15px;
 }
 .project__url a:hover {
-  color: var(--color-orange);
+  color: var(--color-plum);
 }
 /* Contact */
 #contact {
@@ -512,7 +515,7 @@ p {
     height: 15rem;
   }
   .home__container-right {
-    width: 60%;
+    width: 67vw;
     height: 25vh;
     display: block;
     text-align: center;
@@ -528,6 +531,9 @@ p {
     margin: auto;
     height: fit-content;
   }
+  .home__contact {
+    background-color: var(--color-plum-hover);
+  }
   .about__majors {
     flex-direction: column;
     margin-top: 30px;
@@ -535,6 +541,10 @@ p {
   }
   .major {
     margin-bottom: 30px;
+  }
+  .job {
+    padding: 10px 15px 0 15px;
+    grid-template-columns: none;
   }
   .skillset {
     flex-direction: column;
@@ -545,6 +555,9 @@ p {
   }
   .project {
     flex-grow: 1;
+  }
+  .project__description span {
+    font-size: var(--font-regular);
   }
   .arrow-up {
     right: 16px;
