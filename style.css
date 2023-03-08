@@ -548,6 +548,14 @@ p {
   }
   .skillset {
     flex-direction: column;
+    padding: 20px 0;
+  }
+  .skillset__list {
+    grid-template-columns: repeat(auto-fill, minmax(5rem, auto));
+    grid-row-gap: 1rem;
+  }
+  .skillset__list img {
+    width: 3rem;
   }
   .category__btn {
     margin: 4px 0;
