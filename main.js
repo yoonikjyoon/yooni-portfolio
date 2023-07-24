@@ -45,7 +45,7 @@ document.addEventListener("scroll", () => {
 
 // Home - typing text
 const homeTitleText = document.querySelector(".home__title-text");
-const words = ["Yooni Yoon.", "a Front-end Developer."];
+const words = ["Yooni Yoon.", "a Full Stack Developer."];
 const speed = 100;
 let i = 0;
 
