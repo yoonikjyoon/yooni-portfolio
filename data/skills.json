@@ -56,6 +56,11 @@
       "color": "06B6D4"
     },
     {
+      "displayName": "Sass",
+      "name": "Sass",
+      "color": "#CC6699"
+    },
+    {
       "displayName": "Node.js",
       "name": "node.js",
       "color": "339933"
